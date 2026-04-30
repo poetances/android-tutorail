@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTutorial">
         <activity
+            android:name=".layout.LayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".launch.LaunchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TextActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
